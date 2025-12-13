@@ -76,6 +76,12 @@ footer {
 }
 
 .introduction {
+  background-color: white;
+  line-height: 2;
+}
+
+#logo {
+  border: none;
 }
 
 #badge {
