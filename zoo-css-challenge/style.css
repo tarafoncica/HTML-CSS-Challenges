@@ -44,7 +44,7 @@ h5 {
 }
 
 h1 {
-  font-size: 250%;
+  font-size: larger;
 }
 
 h2 {
@@ -115,16 +115,18 @@ footer {
 }
 
 .image-container img:first-of-type {
-  vertical-align: bottom;
+  vertical-align: top;
 }
 
 .tigers {
-  background-color: #0b3c49;
+  background-color: #483c46;
   color: #f0e100;
 }
 
 .giraffe {
-  background-color: #465775;
+  background-color: #483c46;
+  section-titles: #f4743b;
+  paragraph-color: #beee62;
   color: #56e39f;
 }
 
@@ -133,6 +135,7 @@ footer {
 }
 
 .card {
+  title: center;
   display: inline-block;
   background-color: white;
   padding: 20px;
