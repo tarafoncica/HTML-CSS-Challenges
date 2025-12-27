@@ -111,31 +111,43 @@ footer {
 
 .image-container img {
   vertical-align: top;
-  border: 5px solid #747c92;
+}
+.two-bears {
+  border: 10px solid #ff5733;
 }
 
 .image-container img:first-of-type {
   vertical-align: top;
 }
-
+.big-bears {
+  border: 10px solid #33ff57;
+}
+.wathing-bear {
+  border: 10px solid #3357ff;
+}
 .tigers {
   background-color: #483c46;
   color: #f0e100;
 }
 
+.tigers h3 {
+  color: #f3ff4d;
+}
+
 .giraffe {
   background-color: #483c46;
-  section-titles: #f4743b;
-  paragraph-color: #beee62;
-  color: #56e39f;
+  color: #beee62;
 }
-
+.giraffe h3 {
+  color: #f4743b;
+}
 .giraffe h2 {
-  color: #ef6f6c;
+  color: #f4743b;
 }
-
+.giraffe-subheading {
+  font-size: 20px;
+}
 .card {
-  title: center;
   display: inline-block;
   background-color: white;
   padding: 20px;
@@ -158,6 +170,9 @@ footer {
   opacity: 0.5;
   display: inline-block;
   margin-bottom: 10px;
+}
+h2 {
+  text-align: center;
 }
 
 /*Education*/
