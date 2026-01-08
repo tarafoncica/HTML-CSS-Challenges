@@ -90,8 +90,8 @@ footer {
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-  position: fixed;
-  bottom: 20px;
+  position: absolute;
+  top: 20px;
   right: 20px;
 
   display: flex;
@@ -102,6 +102,7 @@ footer {
 
 #badge:hover {
   background-color: yellow;
+  display: top;
 }
 
 #badge p {
@@ -221,4 +222,15 @@ button:hover {
 
 .programs .card {
   display: horizontal;
+}
+.favorite {
+  font-size: 30px;
+  font-weight: bold;
+  color: #6320ee;
+}
+.acute-dog {
+  border: 10px solid #f2eef0;
+}
+.image-container img {
+  vertical-align: top;
 }
